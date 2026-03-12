@@ -19,5 +19,9 @@ public class AngularVelocity : MonoBehaviour
             {
                 rb.angularVelocity = new Vector3(0, angularSpeed, 0);
             }
+        else
+        {
+            rb.angularVelocity = Vector3.zero;
+        }
     }
 }
